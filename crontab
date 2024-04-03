@@ -1,3 +1,3 @@
-* * * * * curl https://shark-app-gqs3k.ondigitalocean.app/api/queue-work >/proc/1/fd/1 2>/proc/1/fd/2
-* * * * * curl https://shark-app-gqs3k.ondigitalocean.app/api/schedule-run >/proc/1/fd/1 2>/proc/1/fd/2
+* * * * * curl https://shark-app-gqs3k.ondigitalocean.app:8080/api/queue-work >/proc/1/fd/1 2>/proc/1/fd/2
+* * * * * curl https://shark-app-gqs3k.ondigitalocean.app:8080/api/schedule-run >/proc/1/fd/1 2>/proc/1/fd/2
 # An empty line is required at the end of this file for a valid cron file.
